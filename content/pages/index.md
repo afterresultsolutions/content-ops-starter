@@ -13,7 +13,7 @@ Elevate your brand with our AI + Human-Powered marketing solutions – drive fas
     actions:
       - label: Get started
         altText: ''
-        url: 
+        url: /
         showIcon: false
         icon: arrowRight
         iconPosition: right
@@ -22,7 +22,7 @@ Elevate your brand with our AI + Human-Powered marketing solutions – drive fas
         type: Button
       - label: Download Service Deck
         altText: ''
-        url: https://cdn2.f-cdn.com/files/download/257089198/afterresult.pdf
+        url: /
         showIcon: true
         icon: arrowRight
         iconPosition: right
