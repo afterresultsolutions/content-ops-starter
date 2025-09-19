@@ -4,25 +4,25 @@ slug: /
 sections:
   - type: GenericSection
     title:
-      text: Grow Faster with AR Solutions - Your Trusted Digital Agency
+      text: AR Solutions 
       color: text-dark
       type: TitleBlock
-    subtitle: Enabling brands to grow with performance-driven digital marketing and smart business solutions.
+    subtitle: Helping You Scale Smarter While Maximizing ROI.
     text: >
-      By integrating design, technology, and strategic execution, we enable brands to build a powerful digital presence, generate leads consistently, improve visibility in local markets, and scale efficiently.         Whether you're a startup looking to launch, or an established business aiming to expand your reach, AR Solutions provides the systems and support you need to grow with confidence.
+Elevate your brand with our AI + Human-Powered marketing solutions – drive faster client acquisition, maximize ROI, and scale seamlessly across online and offline channels.
     actions:
       - label: Get started
         altText: ''
-        url: /
+        url: https://wa.me/919050983530
         showIcon: false
         icon: arrowRight
         iconPosition: right
         style: secondary
         elementId: ''
         type: Button
-      - label: See Tutorials
+      - label: Download Service Deck
         altText: ''
-        url: /
+        url: https://cdn2.f-cdn.com/files/download/257089198/afterresult.pdf
         showIcon: true
         icon: arrowRight
         iconPosition: right
