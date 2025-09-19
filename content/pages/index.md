@@ -4,7 +4,7 @@ slug: /
 sections:
   - type: GenericSection
     title:
-      text: Unblock your team boost your time to production
+      text: Grow Faster with AR Solutions - Your Trusted Digital Agency
       color: text-dark
       type: TitleBlock
     subtitle: Subtitle goes here
