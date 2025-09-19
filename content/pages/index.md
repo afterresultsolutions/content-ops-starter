@@ -13,7 +13,7 @@ sections:
     actions:
       - label: Get started
         altText: ''
-        url: /
+        url: https://wa.me/919050983530
         showIcon: false
         icon: arrowRight
         iconPosition: right
@@ -22,7 +22,7 @@ sections:
         type: Button
       - label: Download Service Deck
         altText: ''
-        url: /
+        url: https://cdn2.f-cdn.com/files/download/257089198/afterresult.pdf
         showIcon: true
         icon: arrowRight
         iconPosition: right
