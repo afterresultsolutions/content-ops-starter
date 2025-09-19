@@ -8,7 +8,7 @@ sections:
       color: text-dark
       type: TitleBlock
     subtitle: Helping You Scale Smarter While Maximizing ROI.
-    text: >
+    text: 
 Elevate your brand with our AI + Human-Powered marketing solutions – drive faster client acquisition, maximize ROI, and scale seamlessly across online and offline channels.
     actions:
       - label: Get started
