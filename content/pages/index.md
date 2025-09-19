@@ -7,11 +7,9 @@ sections:
       text: Grow Faster with AR Solutions - Your Trusted Digital Agency
       color: text-dark
       type: TitleBlock
-    subtitle: Subtitle goes here
+    subtitle: Enabling brands to grow with performance-driven digital marketing and smart business solutions.
     text: >
-      A Netlify Create website is a git repo that you own. Every code commit is
-      instantly reflected in the visual editor and since every visual edit is a
-      git commit, git workflows and collaboration just work.
+      By integrating design, technology, and strategic execution, we enable brands to build a powerful digital presence, generate leads consistently, improve visibility in local markets, and scale efficiently.         Whether you're a startup looking to launch, or an established business aiming to expand your reach, AR Solutions provides the systems and support you need to grow with confidence.
     actions:
       - label: Get started
         altText: ''
