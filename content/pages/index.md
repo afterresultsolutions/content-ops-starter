@@ -13,7 +13,7 @@ Elevate your brand with our AI + Human-Powered marketing solutions – drive fas
     actions:
       - label: Get started
         altText: ''
-        url: https://wa.me/919050983530
+        url: 
         showIcon: false
         icon: arrowRight
         iconPosition: right
