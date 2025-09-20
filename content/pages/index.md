@@ -236,7 +236,7 @@ sections:
     type: GenericSection
   - title: Divider
     colors: bg-light-fg-dark
-     styles:
+  styles:
       self:
         padding:
           - pt-7
