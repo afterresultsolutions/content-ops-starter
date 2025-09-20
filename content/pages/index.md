@@ -57,7 +57,7 @@ sections:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: Subtitle goes here
+    subtitle: 360° Business Growth Solutions
     items:
       - type: FeaturedItem
         title: AR-OPM 
@@ -141,7 +141,7 @@ sections:
         elementId: ''
         type: Button
     badge:
-      label: This is a badge
+      label: Core Offerings
       color: text-primary
       styles:
         self:
