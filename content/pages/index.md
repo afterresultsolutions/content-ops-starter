@@ -57,7 +57,7 @@ sections:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: Subtitle goes here
+    subtitle: Our Core Offerings
     items:
       - type: FeaturedItem
         title: AR-OPM 
