@@ -57,11 +57,11 @@ sections:
     self:
       textAlign: center
       fontSize:
-        base: 18px   # 📱 mobile
-        md: 28px    # 💻 tablet
-        lg: 36px    # 🖥 desktop
+        base: 18px  
+        md: 28px   
+        lg: 36px  
   type: TitleBlock
-subtitle: 360° Business Growth Solutions
+  subtitle: 360° Business Growth Solutions
     items:
       - type: FeaturedItem
         title: AR-OPM 
