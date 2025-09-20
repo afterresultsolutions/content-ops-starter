@@ -190,7 +190,6 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
-    type: ImageGallerySection
     type: DividerSection
   - title:
       text: Grow your business 10x faster
