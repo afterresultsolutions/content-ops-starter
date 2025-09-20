@@ -50,7 +50,7 @@ sections:
           - pb-16
           - pr-16
   - type: FeaturedItemsSection
-title:
+  title:
       text: AR Solution’s Impactful Business Solutions
       color: text-dark
       styles:
