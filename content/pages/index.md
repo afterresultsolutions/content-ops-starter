@@ -7,9 +7,9 @@ sections:
       text: AR Solutions 
       color: text-dark
       type: TitleBlock
-     subtitle: Helping You Scale Smarter While Maximizing ROI
-     text: >
-      Elevate your brand with our AI + Human-Powered marketing solutions – drive faster client acquisition, maximize ROI, and scale seamlessly across online and offline channels
+    subtitle: Helping You Scale Smarter While Maximizing ROI.
+    text: >
+     Elevate your brand with our AI + Human-Powered marketing solutions – drive faster client acquisition, maximize ROI, and scale seamlessly across online and offline channels.
     actions:
       - label: Get started
         altText: ''
@@ -35,7 +35,7 @@ sections:
       elementId: ''
       type: ImageBlock
     badge:
-      label: By AfterResult
+      label: This is a badge
       color: text-primary
       type: Badge
     elementId: ''
@@ -50,14 +50,14 @@ sections:
           - pb-16
           - pr-16
   - type: FeaturedItemsSection
-     title:
-    text: Experience AR Solution’s Impactful Business Solutions
+    title:
+      text: Experience AR Solution’s Impactful Business Solutions
       color: text-dark
       styles:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: 360° Business Growth Solutions
+    subtitle: Subtitle goes here
     items:
       - type: FeaturedItem
         title: AR-OPM 
@@ -141,7 +141,7 @@ sections:
         elementId: ''
         type: Button
     badge:
-      label: Core Offerings
+      label: This is a badge
       color: text-primary
       styles:
         self:
