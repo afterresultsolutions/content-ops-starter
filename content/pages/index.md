@@ -7,9 +7,9 @@ sections:
       text: AR Solutions 
       color: text-dark
       type: TitleBlock
-    subtitle: Helping You Scale Smarter While Maximizing ROI.
+    subtitle: Helping You Scale Smarter While Maximizing ROI
     text: >
-     Elevate your brand with our AI + Human-Powered marketing solutions – drive faster client acquisition, maximize ROI, and scale seamlessly across online and offline channels.
+     Elevate your brand with our AI + Human-Powered marketing solutions – drive faster client acquisition, maximize ROI, and scale seamlessly across online and offline channels
     actions:
       - label: Get started
         altText: ''
@@ -35,7 +35,7 @@ sections:
       elementId: ''
       type: ImageBlock
     badge:
-      label: This is a badge
+      label: By AfterResult
       color: text-primary
       type: Badge
     elementId: ''
@@ -63,7 +63,7 @@ sections:
         title: AR-OPM 
         subtitle: Offline Presence Management
         text: >-
-           Expand your brand’s reach with high-impact offline campaigns, including strategic advertising, community activations, and targeted outreach to maximize visibility and consumer trust.
+           Expand your brand’s reach with high-impact offline campaigns, including strategic advertising, community activations, and targeted outreach to maximize visibility and consumer trust
         actions: []
         elementId: null
         colors: bg-neutralAlt-fg-dark
@@ -89,7 +89,7 @@ sections:
       - title: AR-DPM 
         subtitle: Digital Presence Management
         text: >-
-           Elevate your online presence with tailored strategies that drive engagement, optimize conversions, and establish a strong brand authority across digital platforms.
+           Elevate your online presence with tailored strategies that drive engagement, optimize conversions, and establish a strong brand authority across digital platforms
         image:
           url: /images/icon2.svg
           altText: Featured icon two
@@ -112,7 +112,7 @@ sections:
       - title: AR-Leadin 
         subtitle: Lead Generation
         text: >-
-          Unlock high-quality leads through data-driven prospecting, strategic outreach, and conversion-focused campaigns designed to accelerate client acquisition and revenue growth.
+          Unlock high-quality leads through data-driven prospecting, strategic outreach, and conversion-focused campaigns designed to accelerate client acquisition and revenue growth
         image:
           url: /images/icon3.svg
           altText: Featured icon three
@@ -133,7 +133,7 @@ sections:
     actions:
       - label: Get started
         altText: ''
-        url: /
+        url: https://afterresult.solutions/pricing/
         showIcon: false
         icon: arrowRight
         iconPosition: right
@@ -141,7 +141,7 @@ sections:
         elementId: ''
         type: Button
     badge:
-      label: This is a badge
+      label: 360° Business Growth Solutions
       color: text-primary
       styles:
         self:
