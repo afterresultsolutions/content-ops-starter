@@ -50,18 +50,14 @@ sections:
           - pb-16
           - pr-16
   - type: FeaturedItemsSection
-    title:
-  text: Experience AR Solution’s Impactful Business Solutions
-  color: text-dark
-  styles:
-    self:
-      textAlign: center
-      fontSize:
-        base: 18px  
-        md: 28px   
-        lg: 36px  
-  type: TitleBlock
-  subtitle: 360° Business Growth Solutions
+title:
+      text: AR Solution’s Impactful Business Solutions
+      color: text-dark
+      styles:
+        self:
+          textAlign: center
+      type: TitleBlock
+    subtitle: 360° Business Growth Solutions
     items:
       - type: FeaturedItem
         title: AR-OPM 
