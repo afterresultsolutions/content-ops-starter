@@ -49,117 +49,6 @@ sections:
           - pl-16
           - pb-16
           - pr-16
-  - type: FeaturedItemsSection
-    title:
-      text: AR Solution’s Impactful Business Solutions
-      color: text-dark
-      styles:
-        self:
-          textAlign: center
-      type: TitleBlock
-    subtitle: Our Core Offerings
-    items:
-      - type: FeaturedItem
-        title: AR-OPM 
-        subtitle: Offline Presence Management
-        text: >-
-           Expand your brand’s reach with high-impact offline campaigns, including strategic advertising, community activations, and targeted outreach to maximize visibility and consumer trust
-        actions: []
-        elementId: null
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: row
-            justifyContent: center
-            textAlign: left
-        image:
-          type: ImageBlock
-          altText: Lightning bolt symbol on red background
-          elementId: ''
-          url: /images/icon1.svg
-          styles:
-            self:
-              borderRadius: x-large
-      - title: AR-DPM 
-        subtitle: Digital Presence Management
-        text: >-
-           Elevate your online presence with tailored strategies that drive engagement, optimize conversions, and establish a strong brand authority across digital platforms
-        image:
-          url: /images/icon2.svg
-          altText: Featured icon two
-          elementId: ''
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: row
-            textAlign: left
-            justifyContent: center
-        type: FeaturedItem
-      - title: AR-Leadin 
-        subtitle: Lead Generation
-        text: >-
-          Unlock high-quality leads through data-driven prospecting, strategic outreach, and conversion-focused campaigns designed to accelerate client acquisition and revenue growth
-        image:
-          url: /images/icon3.svg
-          altText: Featured icon three
-          elementId: ''
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: row
-        type: FeaturedItem
-    actions:
-      - label: Get started
-        altText: ''
-        url: https://afterresult.solutions/pricing/
-        showIcon: false
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        elementId: ''
-        type: Button
-    badge:
-      label: 360° Business Growth Solutions
-      color: text-primary
-      styles:
-        self:
-          textAlign: center
-      type: Badge
-    elementId: ''
-    variant: three-col-grid
-    colors: bg-neutral-fg-dark
-    styles:
-      self:
-        padding:
-          - pb-16
-          - pt-16
-          - pl-16
-          - pr-16
-        justifyContent: center
-      subtitle:
-        textAlign: center
   - subtitle: Award winning enterprises trust us
     images:
       - url: /images/empathy-logo.svg
@@ -355,6 +244,117 @@ sections:
           - pb-7
           - pr-7
     type: DividerSection
+      - type: FeaturedItemsSection
+    title:
+      text: AR Solution’s Impactful Business Solutions
+      color: text-dark
+      styles:
+        self:
+          textAlign: center
+      type: TitleBlock
+    subtitle: Our Core Offerings
+    items:
+      - type: FeaturedItem
+        title: AR-OPM 
+        subtitle: Offline Presence Management
+        text: >-
+           Expand your brand’s reach with high-impact offline campaigns, including strategic advertising, community activations, and targeted outreach to maximize visibility and consumer trust
+        actions: []
+        elementId: null
+        colors: bg-neutralAlt-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            borderRadius: x-large
+            flexDirection: row
+            justifyContent: center
+            textAlign: left
+        image:
+          type: ImageBlock
+          altText: Lightning bolt symbol on red background
+          elementId: ''
+          url: /images/icon1.svg
+          styles:
+            self:
+              borderRadius: x-large
+      - title: AR-DPM 
+        subtitle: Digital Presence Management
+        text: >-
+           Elevate your online presence with tailored strategies that drive engagement, optimize conversions, and establish a strong brand authority across digital platforms
+        image:
+          url: /images/icon2.svg
+          altText: Featured icon two
+          elementId: ''
+          type: ImageBlock
+        actions: []
+        colors: bg-neutralAlt-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            borderRadius: x-large
+            flexDirection: row
+            textAlign: left
+            justifyContent: center
+        type: FeaturedItem
+      - title: AR-Leadin 
+        subtitle: Lead Generation
+        text: >-
+          Unlock high-quality leads through data-driven prospecting, strategic outreach, and conversion-focused campaigns designed to accelerate client acquisition and revenue growth
+        image:
+          url: /images/icon3.svg
+          altText: Featured icon three
+          elementId: ''
+          type: ImageBlock
+        actions: []
+        colors: bg-neutralAlt-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            borderRadius: x-large
+            flexDirection: row
+        type: FeaturedItem
+    actions:
+      - label: Get started
+        altText: ''
+        url: https://afterresult.solutions/pricing/
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+        elementId: ''
+        type: Button
+    badge:
+      label: 360° Business Growth Solutions
+      color: text-primary
+      styles:
+        self:
+          textAlign: center
+      type: Badge
+    elementId: ''
+    variant: three-col-grid
+    colors: bg-neutral-fg-dark
+    styles:
+      self:
+        padding:
+          - pb-16
+          - pt-16
+          - pl-16
+          - pr-16
+        justifyContent: center
+      subtitle:
+        textAlign: center
   - type: CarouselSection
     title: null
     subtitle: What our customers say about us
