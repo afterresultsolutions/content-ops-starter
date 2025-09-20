@@ -663,7 +663,7 @@ submitButton:
     type: GenericSection
 seo:
   metaTitle: Home - AR Solutions
-  metaDescription: 100X Revenue Growth with AR Solutions
+  metaDescription: /
   socialImage: /images/main-hero.jpg
   type: Seo
 type: PageLayout
