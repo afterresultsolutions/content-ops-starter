@@ -51,7 +51,7 @@ sections:
           - pr-16
   - type: FeaturedItemsSection
     title:
-      text: Key Benefits
+      text: Experience AR Solution’s Impactful Business Solutions
       color: text-dark
       styles:
         self:
@@ -60,12 +60,10 @@ sections:
     subtitle: Subtitle goes here
     items:
       - type: FeaturedItem
-        title: 500k
-        subtitle: Numbers Done
+        title: AR-OPM 
+        subtitle: Offline Presence Management
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+           Expand your brand’s reach with high-impact offline campaigns, including strategic advertising, community activations, and targeted outreach to maximize visibility and consumer trust.
         actions: []
         elementId: null
         colors: bg-neutralAlt-fg-dark
@@ -88,12 +86,10 @@ sections:
           styles:
             self:
               borderRadius: x-large
-      - title: 20x
-        subtitle: The Job Stuff
+      - title: AR-DPM 
+        subtitle: Digital Presence Management
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+           Elevate your online presence with tailored strategies that drive engagement, optimize conversions, and establish a strong brand authority across digital platforms.
         image:
           url: /images/icon2.svg
           altText: Featured icon two
@@ -113,12 +109,10 @@ sections:
             textAlign: left
             justifyContent: center
         type: FeaturedItem
-      - title: 200%
-        subtitle: Faster
+      - title: AR-Leadin 
+        subtitle: Lead Generation
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Unlock high-quality leads through data-driven prospecting, strategic outreach, and conversion-focused campaigns designed to accelerate client acquisition and revenue growth.
         image:
           url: /images/icon3.svg
           altText: Featured icon three
