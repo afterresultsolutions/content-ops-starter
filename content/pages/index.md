@@ -642,19 +642,48 @@ sections:
     text: |-
       Take the next step towards success with AfterResult. Contact us today.
     media:
-submitButton:
-  type: SubmitButtonFormControl
-  label: Submit
-  showIcon: false
-  style: primary
-  onClick: |
-    const name = document.querySelector('[name="name"]').value;
-    const email = document.querySelector('[name="email"]').value;
-    const message = document.querySelector('[name="message"]').value;
-
-    const text = `Hello, my name is ${name}.\n\nEmail: ${email}\n\nMessage:\n${message}`;
-    const url = `https://wa.me/919050983530?text=${encodeURIComponent(text)}`;
-    window.open(url, "_blank");
+      fields:
+        - name: name
+          label: Name
+          hideLabel: true
+          placeholder: Your name
+          isRequired: true
+          width: full
+          type: TextFormControl
+        - name: email
+          label: Email
+          hideLabel: true
+          placeholder: Your email
+          isRequired: true
+          width: full
+          type: EmailFormControl
+        - name: message
+          label: Message
+          hideLabel: true
+          placeholder: Your message
+          width: full
+          type: TextareaFormControl
+      elementId: contact-form
+      styles:
+        self:
+          padding:
+            - pt-6
+            - pb-6
+            - pl-6
+            - pr-6
+          borderColor: border-dark
+          borderStyle: solid
+          borderWidth: 1
+          borderRadius: large
+      type: FormBlock
+      submitButton:
+        type: SubmitButtonFormControl
+        label: Submit
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+        elementId: null
     badge:
       label: Contact Us
       color: text-primary
