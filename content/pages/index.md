@@ -7,9 +7,9 @@ sections:
       text: AR Solutions 
       color: text-dark
       type: TitleBlock
-    subtitle: Helping You Scale Smarter While Maximizing ROI.
+    subtitle: Helping You Scale Smarter While Maximizing ROI
     text: >
-     Elevate your brand with our AI + Human-Powered marketing solutions – drive faster client acquisition, maximize ROI, and scale seamlessly across online and offline channels.
+     Elevate your brand with our AI + Human-Powered marketing solutions – drive faster client acquisition, maximize ROI, and scale seamlessly across online and offline channels
     actions:
       - label: Get started
         altText: ''
@@ -51,13 +51,17 @@ sections:
           - pr-16
   - type: FeaturedItemsSection
     title:
-      text: Experience AR Solution’s Impactful Business Solutions
-      color: text-dark
-      styles:
-        self:
-          textAlign: center
-      type: TitleBlock
-    subtitle: 360° Business Growth Solutions
+  text: Experience AR Solution’s Impactful Business Solutions
+  color: text-dark
+  styles:
+    self:
+      textAlign: center
+      fontSize:
+        base: 18px   # 📱 mobile
+        md: 28px    # 💻 tablet
+        lg: 36px    # 🖥 desktop
+  type: TitleBlock
+subtitle: 360° Business Growth Solutions
     items:
       - type: FeaturedItem
         title: AR-OPM 
