@@ -243,7 +243,7 @@ sections:
           - pl-7
           - pb-7
           - pr-7
-    type: DividerSection
+
       - type: FeaturedItemsSection
     title:
       text: AR Solution’s Impactful Business Solutions
@@ -356,6 +356,7 @@ sections:
       subtitle:
         textAlign: center
   - type: CarouselSection
+    type: DividerSection
     title: null
     subtitle: What our customers say about us
     items:
