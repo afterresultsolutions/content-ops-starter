@@ -51,7 +51,7 @@ sections:
           - pr-16
   - type: FeaturedItemsSection
     title:
-      text: Experience AR Solution’s Impactful Business Solutions
+      text: AR Solution’s Impactful Business Solutions
       color: text-dark
       styles:
         self:
