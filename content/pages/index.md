@@ -49,7 +49,117 @@ sections:
           - pl-16
           - pb-16
           - pr-16
-
+  - type: FeaturedItemsSection
+    title:
+      text: AR Solution’s Impactful Business Solutions
+      color: text-dark
+      styles:
+        self:
+          textAlign: center
+      type: TitleBlock
+    subtitle: Our Core Offerings
+    items:
+      - type: FeaturedItem
+        title: AR-OPM 
+        subtitle: Offline Presence Management
+        text: >-
+           Expand your brand’s reach with high-impact offline campaigns, including strategic advertising, community activations, and targeted outreach to maximize visibility and consumer trust
+        actions: []
+        elementId: null
+        colors: bg-neutralAlt-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            borderRadius: x-large
+            flexDirection: row
+            justifyContent: center
+            textAlign: left
+        image:
+          type: ImageBlock
+          altText: Lightning bolt symbol on red background
+          elementId: ''
+          url: /images/icon1.svg
+          styles:
+            self:
+              borderRadius: x-large
+      - title: AR-DPM 
+        subtitle: Digital Presence Management
+        text: >-
+           Elevate your online presence with tailored strategies that drive engagement, optimize conversions, and establish a strong brand authority across digital platforms
+        image:
+          url: /images/icon2.svg
+          altText: Featured icon two
+          elementId: ''
+          type: ImageBlock
+        actions: []
+        colors: bg-neutralAlt-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            borderRadius: x-large
+            flexDirection: row
+            textAlign: left
+            justifyContent: center
+        type: FeaturedItem
+      - title: AR-Leadin 
+        subtitle: Lead Generation
+        text: >-
+          Unlock high-quality leads through data-driven prospecting, strategic outreach, and conversion-focused campaigns designed to accelerate client acquisition and revenue growth
+        image:
+          url: /images/icon3.svg
+          altText: Featured icon three
+          elementId: ''
+          type: ImageBlock
+        actions: []
+        colors: bg-neutralAlt-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            borderRadius: x-large
+            flexDirection: row
+        type: FeaturedItem
+    actions:
+      - label: Get started
+        altText: ''
+        url: https://afterresult.solutions/pricing/
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+        elementId: ''
+        type: Button
+    badge:
+      label: 360° Business Growth Solutions
+      color: text-primary
+      styles:
+        self:
+          textAlign: center
+      type: Badge
+    elementId: ''
+    variant: three-col-grid
+    colors: bg-neutral-fg-dark
+    styles:
+      self:
+        padding:
+          - pb-16
+          - pt-16
+          - pl-16
+          - pr-16
+        justifyContent: center
+      subtitle:
+        textAlign: center
   - subtitle: Award winning enterprises trust us
     images:
       - url: /images/empathy-logo.svg
@@ -81,7 +191,6 @@ sections:
       subtitle:
         textAlign: center
     type: DividerSection
-
   - title:
       text: Grow your business 10x faster
       color: text-dark
@@ -127,7 +236,6 @@ sections:
       subtitle:
         textAlign: center
     type: GenericSection
-
   - type: GenericSection
     title:
       text: 360° Business Growth Solutions
@@ -168,7 +276,6 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: left
-
   - title:
       text: Full-Spectrum Digital Presence
       color: text-dark
@@ -203,7 +310,6 @@ sections:
       self:
         alignItems: center
     type: GenericSection
-
   - title:
       text: Business Consulting
       color: text-dark
@@ -239,7 +345,6 @@ sections:
         alignItems: center
         flexDirection: row-reverse
     type: GenericSection
-
   - title: Divider
     colors: bg-light-fg-dark
     styles:
@@ -250,119 +355,6 @@ sections:
           - pb-7
           - pr-7
     type: DividerSection
-
-  - type: FeaturedItemsSection
-    title:
-      text: AR Solution’s Impactful Business Solutions
-      color: text-dark
-      styles:
-        self:
-          textAlign: center
-      type: TitleBlock
-    subtitle: Our Core Offerings
-    items:
-      - type: FeaturedItem
-        title: AR-OPM 
-        subtitle: Offline Presence Management
-        text: >-
-           Expand your brand’s reach with high-impact offline campaigns, including strategic advertising, community activations, and targeted outreach to maximize visibility and consumer trust
-        actions: []
-        elementId: null
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: row
-            justifyContent: center
-            textAlign: left
-        image:
-          type: ImageBlock
-          altText: Lightning bolt symbol on red background
-          elementId: ''
-          url: /images/icon1.svg
-          styles:
-            self:
-              borderRadius: x-large
-      - type: FeaturedItem
-        title: AR-DPM 
-        subtitle: Digital Presence Management
-        text: >-
-           Elevate your online presence with tailored strategies that drive engagement, optimize conversions, and establish a strong brand authority across digital platforms
-        image:
-          url: /images/icon2.svg
-          altText: Featured icon two
-          elementId: ''
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: row
-            textAlign: left
-            justifyContent: center
-      - type: FeaturedItem
-        title: AR-Leadin 
-        subtitle: Lead Generation
-        text: >-
-          Unlock high-quality leads through data-driven prospecting, strategic outreach, and conversion-focused campaigns designed to accelerate client acquisition and revenue growth
-        image:
-          url: /images/icon3.svg
-          altText: Featured icon three
-          elementId: ''
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: row
-    actions:
-      - label: Get started
-        altText: ''
-        url: https://afterresult.solutions/pricing/
-        showIcon: false
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        elementId: ''
-        type: Button
-    badge:
-      label: 360° Business Growth Solutions
-      color: text-primary
-      styles:
-        self:
-          textAlign: center
-      type: Badge
-    elementId: ''
-    variant: three-col-grid
-    colors: bg-neutral-fg-dark
-    styles:
-      self:
-        padding:
-          - pb-16
-          - pt-16
-          - pl-16
-          - pr-16
-        justifyContent: center
-      subtitle:
-        textAlign: center
-
   - type: CarouselSection
     title: null
     subtitle: What our customers say about us
@@ -396,6 +388,7 @@ sections:
             borderRadius: large
             flexDirection: row
             justifyContent: center
+        type: FeaturedItem
       - title: >-
           "Design is a plan for arranging elements in such a way as best to accomplish a particular purpose."
         tagline: Testimonial 2
@@ -424,6 +417,7 @@ sections:
             borderRadius: large
             flexDirection: row
             justifyContent: center
+        type: FeaturedItem
       - title: >-
           "Design is how it works, how it functions. Good design doesn't just make a product aesthetically pleasing, it makes it a pleasure to use."
         tagline: Testimonial 3
@@ -452,6 +446,7 @@ sections:
             borderRadius: large
             flexDirection: row
             justifyContent: center
+        type: FeaturedItem
       - title: >-
           “A designer knows he has achieved perfection not when there is nothing
           left to add, but when there is nothing left to take away.”
@@ -481,6 +476,7 @@ sections:
             borderRadius: large
             flexDirection: row
             justifyContent: center
+        type: FeaturedItem
       - title: >-
           "Design can be art. Design can be aesthetics. Design is so simple, that's why it is so complicated."
         tagline: Testimonial 5
@@ -509,6 +505,7 @@ sections:
             borderRadius: large
             flexDirection: row
             justifyContent: center
+        type: FeaturedItem
       - title: >-
           “Quote from some important person goes right here. I love using Netlify Create.”
         tagline: Testimonial 6
@@ -537,6 +534,7 @@ sections:
             borderRadius: large
             flexDirection: row
             justifyContent: center
+        type: FeaturedItem
     elementId: null
     variant: next-prev-nav
     colors: bg-light-fg-dark
@@ -545,9 +543,7 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
-
-  - type: FeaturedItemsSection
-    title:
+  - title:
       text: Digital Growth & Enablement
       color: text-primary
       styles:
@@ -556,8 +552,7 @@ sections:
       type: TitleBlock
     subtitle: AR Solutions DPM
     items:
-      - type: FeaturedItem
-        title: E-Commerce Development & Management
+      - title: E-Commerce Development & Management
         tagline: 10X Sales
         subtitle: 100+ Store | 86+ Marketplace Acc.
         text: |
@@ -579,8 +574,8 @@ sections:
               - pr-8
             borderRadius: x-large
             flexDirection: col
-      - type: FeaturedItem
-        title: Branding & Startup Scaling
+        type: FeaturedItem
+      - title: Branding & Startup Scaling
         tagline: Targeted campaigns and PR strategies to boost brand visibility.
         subtitle: 38 SME's -> Brands 
         text: |
@@ -602,8 +597,8 @@ sections:
               - pr-8
             borderRadius: x-large
             flexDirection: col
-      - type: FeaturedItem
-        title: Client Acquisition & Sales Pipeline Growth
+        type: FeaturedItem
+      - title: Client Acquisition & Sales Pipeline Growth
         tagline: Precision-Driven Lead Generation
         subtitle: Advanced Data Mining & Prospecting
         text: |
@@ -625,6 +620,7 @@ sections:
               - pr-8
             borderRadius: x-large
             flexDirection: col
+        type: FeaturedItem
     variant: three-col-grid
     colors: bg-neutral-fg-dark
     styles:
@@ -637,9 +633,8 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
-
-  - type: GenericSection
-    title:
+    type: FeaturedItemsSection
+  - title:
       text: Let’s get in touch!
       color: text-dark
       type: TitleBlock
@@ -694,10 +689,11 @@ sections:
       color: text-primary
       type: Badge
     colors: bg-light-fg-dark
-
+    type: GenericSection
 seo:
   metaTitle: Home - AR Solutions
   metaDescription: /
   socialImage: /images/main-hero.jpg
   type: Seo
 type: PageLayout
+---
