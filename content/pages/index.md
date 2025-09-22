@@ -49,7 +49,7 @@ sections:
           - pl-16
           - pb-16
           - pr-16
-          
+
   - type: FeaturedItemsSection
     title:
       text: AR Solution’s Impactful Business Solutions
@@ -165,7 +165,7 @@ sections:
   - type: GenericSection
     title: ""
     subtitle: Award winning enterprises trust us
-     images:
+    images:
       - url: /images/empathy-logo.svg
         altText: Empathy logo
         type: ImageBlock
