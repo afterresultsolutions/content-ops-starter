@@ -161,7 +161,7 @@ sections:
       subtitle:
         textAlign: center
   - subtitle: Award winning enterprises trust us
-    images:
+     images:
       - url: /images/empathy-logo.svg
         altText: Empathy logo
         type: ImageBlock
@@ -183,8 +183,8 @@ sections:
       - url: /images/rangle-logo.svg
         altText: Rangle logo
         type: ImageBlock
-    motion: move-to-left
-    colors: bg-light-fg-dark
+     motion: move-to-left
+   colors: bg-light-fg-dark
     styles:
       self:
         justifyContent: center
