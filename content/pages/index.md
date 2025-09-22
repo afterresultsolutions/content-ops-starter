@@ -12,33 +12,33 @@ sections:
      Elevate your brand with our AI + Human-Powered marketing solutions – drive faster client acquisition, maximize ROI, and scale seamlessly across online and offline channels
     actions:
       - label: Get started
-        altText: ''
+        altText: ""
         url: https://wa.me/919050983530
         showIcon: false
         icon: arrowRight
         iconPosition: right
         style: secondary
-        elementId: ''
+        elementId: ""
         type: Button
       - label: Download Service Deck
-        altText: ''
+        altText: ""
         url: https://cdn2.f-cdn.com/files/download/257089198/afterresult.pdf
         showIcon: true
         icon: arrowRight
         iconPosition: right
         style: primary
-        elementId: ''
+        elementId: ""
         type: Link
     media:
       url: /images/main-hero.svg
       altText: Unblock your team boost your time to production preview
-      elementId: ''
+      elementId: ""
       type: ImageBlock
     badge:
       label: By AfterResult
       color: text-primary
       type: Badge
-    elementId: ''
+    elementId: ""
     colors: bg-light-fg-dark
     styles:
       self:
@@ -49,6 +49,7 @@ sections:
           - pl-16
           - pb-16
           - pr-16
+
   - type: FeaturedItemsSection
     title:
       text: AR Solution’s Impactful Business Solutions
@@ -65,7 +66,7 @@ sections:
         text: >-
            Expand your brand’s reach with high-impact offline campaigns, including strategic advertising, community activations, and targeted outreach to maximize visibility and consumer trust
         actions: []
-        elementId: null
+        elementId: ""
         colors: bg-neutralAlt-fg-dark
         styles:
           self:
@@ -81,19 +82,20 @@ sections:
         image:
           type: ImageBlock
           altText: Lightning bolt symbol on red background
-          elementId: ''
+          elementId: ""
           url: /images/icon1.svg
           styles:
             self:
               borderRadius: x-large
-      - title: AR-DPM 
+      - type: FeaturedItem
+        title: AR-DPM 
         subtitle: Digital Presence Management
         text: >-
            Elevate your online presence with tailored strategies that drive engagement, optimize conversions, and establish a strong brand authority across digital platforms
         image:
           url: /images/icon2.svg
           altText: Featured icon two
-          elementId: ''
+          elementId: ""
           type: ImageBlock
         actions: []
         colors: bg-neutralAlt-fg-dark
@@ -108,15 +110,15 @@ sections:
             flexDirection: row
             textAlign: left
             justifyContent: center
-        type: FeaturedItem
-      - title: AR-Leadin 
+      - type: FeaturedItem
+        title: AR-Leadin 
         subtitle: Lead Generation
         text: >-
           Unlock high-quality leads through data-driven prospecting, strategic outreach, and conversion-focused campaigns designed to accelerate client acquisition and revenue growth
         image:
           url: /images/icon3.svg
           altText: Featured icon three
-          elementId: ''
+          elementId: ""
           type: ImageBlock
         actions: []
         colors: bg-neutralAlt-fg-dark
@@ -129,16 +131,15 @@ sections:
               - pr-8
             borderRadius: x-large
             flexDirection: row
-        type: FeaturedItem
     actions:
       - label: Get started
-        altText: ''
+        altText: ""
         url: https://afterresult.solutions/pricing/
         showIcon: false
         icon: arrowRight
         iconPosition: right
         style: primary
-        elementId: ''
+        elementId: ""
         type: Button
     badge:
       label: 360° Business Growth Solutions
@@ -147,7 +148,7 @@ sections:
         self:
           textAlign: center
       type: Badge
-    elementId: ''
+    elementId: ""
     variant: three-col-grid
     colors: bg-neutral-fg-dark
     styles:
@@ -160,7 +161,9 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
+
   - type: GenericSection
+    title: ""
     subtitle: Award winning enterprises trust us
     images:
       - url: /images/empathy-logo.svg
@@ -191,8 +194,19 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
-  - title: Divider
-  - title:
+
+  - type: DividerSection
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        padding:
+          - pt-7
+          - pl-7
+          - pb-7
+          - pr-7
+
+  - type: GenericSection
+    title:
       text: Grow your business 10x faster
       color: text-dark
       styles:
@@ -206,7 +220,7 @@ sections:
       title: Title of the video
       url: /images/placeholder-video.mp4
       controls: false
-      aspectRatio: '16:9'
+      aspectRatio: "16:9"
       styles:
         self:
           padding:
@@ -236,7 +250,7 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
-    type: GenericSection
+
   - type: GenericSection
     title:
       text: 360° Business Growth Solutions
@@ -256,7 +270,7 @@ sections:
       loop: true
       muted: true
       controls: false
-      aspectRatio: '16:9'
+      aspectRatio: "16:9"
       styles:
         self:
           padding:
@@ -269,7 +283,7 @@ sections:
           borderWidth: 1
           borderRadius: large
       type: VideoBlock
-    elementId: null
+    elementId: ""
     colors: bg-light-fg-dark
     styles:
       self:
@@ -277,7 +291,9 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: left
-  - title:
+
+  - type: GenericSection
+    title:
       text: Full-Spectrum Digital Presence
       color: text-dark
       type: TitleBlock
@@ -310,8 +326,9 @@ sections:
     styles:
       self:
         alignItems: center
-    type: GenericSection
-  - title:
+
+  - type: GenericSection
+    title:
       text: Business Consulting
       color: text-dark
       type: TitleBlock
@@ -345,8 +362,8 @@ sections:
       self:
         alignItems: center
         flexDirection: row-reverse
-    type: GenericSection
-  - title: Divider
+
+  - type: DividerSection
     colors: bg-light-fg-dark
     styles:
       self:
@@ -355,12 +372,13 @@ sections:
           - pl-7
           - pb-7
           - pr-7
-    type: DividerSection
+
   - type: CarouselSection
-    title: null
+    title: ""
     subtitle: What our customers say about us
     items:
-      - title: >-
+      - type: FeaturedItem
+        title: >-
           “A designer knows he has achieved perfection not when there is nothing
           left to add, but when there is nothing left to take away.”
         tagline: Testimonial 1
@@ -389,8 +407,8 @@ sections:
             borderRadius: large
             flexDirection: row
             justifyContent: center
-        type: FeaturedItem
-      - title: >-
+      - type: FeaturedItem
+        title: >-
           "Design is a plan for arranging elements in such a way as best to accomplish a particular purpose."
         tagline: Testimonial 2
         subtitle: 'John Doe, Company'
@@ -418,8 +436,8 @@ sections:
             borderRadius: large
             flexDirection: row
             justifyContent: center
-        type: FeaturedItem
-      - title: >-
+      - type: FeaturedItem
+        title: >-
           "Design is how it works, how it functions. Good design doesn't just make a product aesthetically pleasing, it makes it a pleasure to use."
         tagline: Testimonial 3
         subtitle: 'Maria Walters, Company'
@@ -447,8 +465,8 @@ sections:
             borderRadius: large
             flexDirection: row
             justifyContent: center
-        type: FeaturedItem
-      - title: >-
+      - type: FeaturedItem
+        title: >-
           “A designer knows he has achieved perfection not when there is nothing
           left to add, but when there is nothing left to take away.”
         tagline: Testimonial 4
@@ -477,8 +495,8 @@ sections:
             borderRadius: large
             flexDirection: row
             justifyContent: center
-        type: FeaturedItem
-      - title: >-
+      - type: FeaturedItem
+        title: >-
           "Design can be art. Design can be aesthetics. Design is so simple, that's why it is so complicated."
         tagline: Testimonial 5
         subtitle: 'Jane Walters, Company'
@@ -506,8 +524,8 @@ sections:
             borderRadius: large
             flexDirection: row
             justifyContent: center
-        type: FeaturedItem
-      - title: >-
+      - type: FeaturedItem
+        title: >-
           “Quote from some important person goes right here. I love using Netlify Create.”
         tagline: Testimonial 6
         subtitle: 'Jane Doe, Company'
@@ -535,8 +553,7 @@ sections:
             borderRadius: large
             flexDirection: row
             justifyContent: center
-        type: FeaturedItem
-    elementId: null
+    elementId: ""
     variant: next-prev-nav
     colors: bg-light-fg-dark
     styles:
@@ -544,7 +561,9 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
-  - title:
+
+  - type: FeaturedItemsSection
+    title:
       text: Digital Growth & Enablement
       color: text-primary
       styles:
@@ -553,7 +572,8 @@ sections:
       type: TitleBlock
     subtitle: AR Solutions DPM
     items:
-      - title: E-Commerce Development & Management
+      - type: FeaturedItem
+        title: E-Commerce Development & Management
         tagline: 10X Sales
         subtitle: 100+ Store | 86+ Marketplace Acc.
         text: |
@@ -575,8 +595,8 @@ sections:
               - pr-8
             borderRadius: x-large
             flexDirection: col
-        type: FeaturedItem
-      - title: Branding & Startup Scaling
+      - type: FeaturedItem
+        title: Branding & Startup Scaling
         tagline: Targeted campaigns and PR strategies to boost brand visibility.
         subtitle: 38 SME's -> Brands 
         text: |
@@ -598,8 +618,8 @@ sections:
               - pr-8
             borderRadius: x-large
             flexDirection: col
-        type: FeaturedItem
-      - title: Client Acquisition & Sales Pipeline Growth
+      - type: FeaturedItem
+        title: Client Acquisition & Sales Pipeline Growth
         tagline: Precision-Driven Lead Generation
         subtitle: Advanced Data Mining & Prospecting
         text: |
@@ -621,7 +641,6 @@ sections:
               - pr-8
             borderRadius: x-large
             flexDirection: col
-        type: FeaturedItem
     variant: three-col-grid
     colors: bg-neutral-fg-dark
     styles:
@@ -634,12 +653,13 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
-    type: FeaturedItemsSection
-  - title:
+
+  - type: GenericSection
+    title:
       text: Let’s get in touch!
       color: text-dark
       type: TitleBlock
-    subtitle: Section with a form subtitle
+    subtitle: ""
     text: |-
       Take the next step towards success with AfterResult. Contact us today.
     media:
@@ -684,13 +704,13 @@ sections:
         icon: arrowRight
         iconPosition: right
         style: primary
-        elementId: null
+        elementId: ""
     badge:
       label: Contact Us
       color: text-primary
       type: Badge
     colors: bg-light-fg-dark
-    type: GenericSection
+
 seo:
   metaTitle: Home - AR Solutions
   metaDescription: /
