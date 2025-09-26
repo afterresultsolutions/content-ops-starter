@@ -1,27 +1,5 @@
-<!-- Copy-paste-ready: save as a .html file or paste into your site's HTML -->
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Ecommerce Feature Image Embed</title>
-  <style>
-    body { font-family: Arial, Helvetica, sans-serif; margin:40px; background:#fff; }
-    .wrap { max-width:800px; margin:0 auto; text-align:center; }
-    .thumb { display:inline-block; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.12); overflow:hidden; }
-    img { width:100%; height:auto; display:block; }
-    .caption { margin-top:12px; font-size:14px; color:#333; }
-  </style>
-</head>
-<body>
-  <div class="wrap">
-    <div class="thumb">
-      <!-- Click to open full-size image in a new tab -->
-      <a href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD... (long base64 data) ..." target="_blank" rel="noopener">
-        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD... (long base64 data) ..." alt="Comprehensive Ecommerce Features">
-      </a>
-    </div>
-    <div class="caption">Click image to open full size</div>
-  </div>
-</body>
-</html>
+<a href="https://i.imgur.com/JXfV0jX.jpeg" target="_blank">
+  <img src="https://i.imgur.com/JXfV0jX.jpeg" 
+       alt="Comprehensive Ecommerce Features" 
+       style="max-width:100%; height:auto; display:block; margin:auto;">
+</a>
