@@ -83,3 +83,42 @@ async function indexObjects(objectsToIndex) {
     await client.destroy();
     console.log(`Indexed ${response.objectIDs.length} objects`);
 }
+
+
+Comprehensive Ecommerce Features
+Basic Training
+Training to manage the online store
+12
+Mobile Responsiveness
+Product Listings
+11
+Optimization for mobile devices
+Creation and population of 20 product listings
+Essential Add-ons
+Product Variants
+Installation and configuration of essential add-ons
+10
+Implementation of support for product variants
+1
+2
+Responsive Design
+Post-Launch Support
+Optimal viewing and functionality across devices
+9
+3
+One month of support provided after store launch
+Domain Integration
+4
+Free Domain
+8
+Seamless integration of chosen domain
+Inclusion of a free .shop domain
+5
+7
+Payment Gateway Integration
+6
+High-Performing Store
+Integration with popular payment gateways
+Design and development for speed and user experience
+Layout Designing & Banners
+Professional design and banner creation
