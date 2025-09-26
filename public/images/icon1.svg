@@ -1,5 +1,78 @@
-<a href="/ecommerce.jpeg" target="_blank">
-  <img src="/ecommerce.jpeg" 
-       alt="Comprehensive Ecommerce Features" 
-       style="max-width:100%; height:auto; display:block; margin:auto;">
-</a>
+<svg width="84" height="84" viewBox="0 0 84 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="42" cy="42" r="42" fill="white"/>
+<!-- Outer ring -->
+<circle cx="42" cy="42" r="38" fill="none" stroke="#E5E7EB" stroke-width="1"/>
+<circle cx="42" cy="42" r="34" fill="none" stroke="#E5E7EB" stroke-width="1"/>
+<circle cx="42" cy="42" r="30" fill="none" stroke="#E5E7EB" stroke-width="1"/>
+<circle cx="42" cy="42" r="26" fill="none" stroke="#E5E7EB" stroke-width="1"/>
+<circle cx="42" cy="42" r="22" fill="none" stroke="#E5E7EB" stroke-width="1"/>
+<circle cx="42" cy="42" r="18" fill="none" stroke="#E5E7EB" stroke-width="1"/>
+
+<!-- Center laptop icon -->
+<rect x="35" y="36" width="14" height="9" rx="1" fill="#6B7280" stroke="#6B7280" stroke-width="0.5"/>
+<rect x="36" y="37" width="12" height="7" fill="#9CA3AF"/>
+<rect x="40" y="45.5" width="4" height="1" fill="#6B7280"/>
+
+<!-- Feature dots positioned around circles -->
+<!-- 1 - Right (Blue) -->
+<circle cx="64" cy="42" r="6" fill="#0EA5E9"/>
+<text x="64" y="46" text-anchor="middle" fill="white" font-size="8" font-weight="bold">1</text>
+
+<!-- 2 - Top Right (Green) -->
+<circle cx="59" cy="23" r="6" fill="#10B981"/>
+<text x="59" y="27" text-anchor="middle" fill="white" font-size="8" font-weight="bold">2</text>
+
+<!-- 3 - Top Right (Light Green) -->
+<circle cx="68" cy="30" r="6" fill="#22C55E"/>
+<text x="68" y="34" text-anchor="middle" fill="white" font-size="8" font-weight="bold">3</text>
+
+<!-- 4 - Bottom Right (Yellow) -->
+<circle cx="68" cy="54" r="6" fill="#EAB308"/>
+<text x="68" y="58" text-anchor="middle" fill="white" font-size="8" font-weight="bold">4</text>
+
+<!-- 5 - Bottom Right (Orange) -->
+<circle cx="59" cy="61" r="6" fill="#F97316"/>
+<text x="59" y="65" text-anchor="middle" fill="white" font-size="8" font-weight="bold">5</text>
+
+<!-- 6 - Bottom (Red) -->
+<circle cx="42" cy="68" r="6" fill="#EF4444"/>
+<text x="42" y="72" text-anchor="middle" fill="white" font-size="8" font-weight="bold">6</text>
+
+<!-- 7 - Bottom Left (Pink) -->
+<circle cx="25" cy="61" r="6" fill="#EC4899"/>
+<text x="25" y="65" text-anchor="middle" fill="white" font-size="8" font-weight="bold">7</text>
+
+<!-- 8 - Left (Purple) -->
+<circle cx="16" cy="54" r="6" fill="#A855F7"/>
+<text x="16" y="58" text-anchor="middle" fill="white" font-size="8" font-weight="bold">8</text>
+
+<!-- 9 - Top Left (Purple) -->
+<circle cx="16" cy="30" r="6" fill="#8B5CF6"/>
+<text x="16" y="34" text-anchor="middle" fill="white" font-size="8" font-weight="bold">9</text>
+
+<!-- 10 - Top Left (Blue) -->
+<circle cx="25" cy="23" r="6" fill="#3B82F6"/>
+<text x="25" y="27" text-anchor="middle" fill="white" font-size="8" font-weight="bold">10</text>
+
+<!-- 11 - Top Left (Cyan) -->
+<circle cx="20" cy="42" r="6" fill="#06B6D4"/>
+<text x="20" y="46" text-anchor="middle" fill="white" font-size="8" font-weight="bold">11</text>
+
+<!-- 12 - Top (Green) -->
+<circle cx="42" cy="16" r="6" fill="#10B981"/>
+<text x="42" y="20" text-anchor="middle" fill="white" font-size="8" font-weight="bold">12</text>
+
+<!-- Connection lines -->
+<line x1="48" y1="42" x2="58" y2="42" stroke="#D1D5DB" stroke-width="1"/>
+<line x1="52" y1="38" x2="56" y2="26" stroke="#D1D5DB" stroke-width="1"/>
+<line x1="54" y1="46" x2="62" y2="32" stroke="#D1D5DB" stroke-width="1"/>
+<line x1="54" y1="46" x2="62" y2="52" stroke="#D1D5DB" stroke-width="1"/>
+<line x1="52" y1="46" x2="56" y2="58" stroke="#D1D5DB" stroke-width="1"/>
+<line x1="42" y1="51" x2="42" y2="62" stroke="#D1D5DB" stroke-width="1"/>
+<line x1="32" y1="46" x2="28" y2="58" stroke="#D1D5DB" stroke-width="1"/>
+<line x1="30" y1="46" x2="22" y2="52" stroke="#D1D5DB" stroke-width="1"/>
+<line x1="30" y1="38" x2="22" y2="32" stroke="#D1D5DB" stroke-width="1"/>
+<line x1="32" y1="38" x2="28" y2="26" stroke="#D1D5DB" stroke-width="1"/>
+<line x1="36" y1="42" x2="26" y2="42" stroke="#D1D5DB" stroke-width="1"/>
+<line x1="42" y1="33" x2="42" y2="22" stroke="#D1D5DB" stroke-width="1"/>
+</svg>
